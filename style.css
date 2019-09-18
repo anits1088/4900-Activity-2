@@ -1,0 +1,102 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    height:80%;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header u1{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: darkblue;
+    color: ghostwhite;
+    padding-top:35px;
+    min-height:70px;
+    border-bottom: darkred 4px solid;
+}
+header a{
+    color:white;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 10px 0 20px;
+
+}
+header #introduction
+{
+    float:left;
+}
+header #introduction h1
+{
+    margin:0;
+}
+ header nav{
+     float:right;
+
+ }
+ header .highlight, header .current a{
+color:red;
+     font-weight: bold;
+
+ }
+ height a:hover{
+     color:#cccccc;
+     font-weight: bold;
+ }
+
+ section {
+    background-color: beige;
+    color: darkgreen;
+    padding-top:35px;
+
+ }
+ img{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding-top: 1px;
+  width: 150px;
+}
+ aside {
+     background-color: beige;
+     color: darkgreen;
+     font-weight: bold;
+     padding-top: 35px;
+ }
+ section #main{
+   background-color: beige;
+     color: darkgreen;
+     font-weight: bold;
+     padding-top: 35px;
+     height: 80%;
+ }
+
+ img{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding-top: 1px;
+  width: 200px;
+}
+ footer {
+   background-color: beige;
+     color: black;
+     font-style: italic;
+     padding-top: 35px;
+ }
+pre {
+  display: block;
+    line-break: auto;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
